@@ -4,7 +4,7 @@
         "amount": 1,
         "parts": {
             "Tunnel": {
-                "amount": 188,
+                "amount": 193,
                 "total cost": 0
             },
             "Probe": {
@@ -19,16 +19,12 @@
                 "amount": 1,
                 "total cost": 0
             },
+            "Demultiplexer": {
+                "amount": 1,
+                "total cost": 0
+            },
             "Text": {
                 "amount": 9,
-                "total cost": 0
-            },
-            "RAM-TRANSLATE": {
-                "amount": 3,
-                "total cost": 0
-            },
-            "NOT Gate": {
-                "amount": 1,
                 "total cost": 0
             },
             "Cache": {
@@ -36,6 +32,26 @@
                 "total cost": 6
             },
             "Multiplexer": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "RAMUI": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "RAM-TRANSLATE": {
+                "amount": 3,
+                "total cost": 0
+            },
+            "Constant": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "D Flip-Flop": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -43,28 +59,12 @@
                 "amount": 1,
                 "total cost": 57
             },
-            "Constant": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Demultiplexer": {
-                "amount": 1,
-                "total cost": 0
-            },
             "ControlUnit": {
                 "amount": 1,
                 "total cost": 0
             },
-            "RAMUI": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "D Flip-Flop": {
-                "amount": 1,
-                "total cost": 0
-            },
             "Wire": {
-                "amount": 113,
+                "amount": 125,
                 "total cost": 0
             }
         }
@@ -73,10 +73,6 @@
         "price": 0,
         "amount": 1,
         "parts": {
-            "Pin": {
-                "amount": 4,
-                "total cost": 0
-            },
             "AND Gate": {
                 "amount": 4,
                 "total cost": 0
@@ -85,12 +81,16 @@
                 "amount": 7,
                 "total cost": 0
             },
-            "NOT Gate": {
+            "Pin": {
                 "amount": 4,
                 "total cost": 0
             },
             "Splitter": {
                 "amount": 3,
+                "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 4,
                 "total cost": 0
             },
             "Probe": {
@@ -103,61 +103,39 @@
             }
         }
     },
-    "RAM-TRANSLATE": {
-        "price": 0,
-        "amount": 3,
-        "parts": {
-            "Splitter": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Tunnel": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Wire": {
-                "amount": 5,
-                "total cost": 0
-            }
-        }
-    },
     "Cache": {
         "price": 3,
         "amount": 2,
         "parts": {
             "Tunnel": {
-                "amount": 200,
-                "total cost": 0
-            },
-            "Multiplexer": {
-                "amount": 3,
-                "total cost": 3
-            },
-            "Demultiplexer": {
-                "amount": 3,
-                "total cost": 0
-            },
-            "CacheSet": {
-                "amount": 8,
+                "amount": 208,
                 "total cost": 0
             },
             "Pin": {
                 "amount": 14,
                 "total cost": 0
             },
+            "AND Gate": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Multiplexer": {
+                "amount": 3,
+                "total cost": 3
+            },
+            "CacheSet": {
+                "amount": 8,
+                "total cost": 0
+            },
             "Splitter": {
                 "amount": 1,
                 "total cost": 0
             },
-            "Comparator": {
-                "amount": 1,
+            "Demultiplexer": {
+                "amount": 3,
                 "total cost": 0
             },
-            "AND Gate": {
+            "Comparator": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -172,23 +150,7 @@
         "amount": 8,
         "parts": {
             "Tunnel": {
-                "amount": 89,
-                "total cost": 0
-            },
-            "D Flip-Flop": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 15,
-                "total cost": 0
-            },
-            "Multiplexer": {
-                "amount": 5,
-                "total cost": 0
-            },
-            "Register": {
-                "amount": 5,
+                "amount": 94,
                 "total cost": 0
             },
             "OR Gate": {
@@ -199,12 +161,108 @@
                 "amount": 4,
                 "total cost": 0
             },
+            "Pin": {
+                "amount": 16,
+                "total cost": 0
+            },
+            "Register": {
+                "amount": 5,
+                "total cost": 0
+            },
+            "Multiplexer": {
+                "amount": 5,
+                "total cost": 0
+            },
+            "D Flip-Flop": {
+                "amount": 1,
+                "total cost": 0
+            },
             "Splitter": {
                 "amount": 1,
                 "total cost": 0
             },
             "Wire": {
-                "amount": 124,
+                "amount": 127,
+                "total cost": 0
+            }
+        }
+    },
+    "RAMUI": {
+        "price": 0,
+        "amount": 1,
+        "parts": {
+            "OR Gate": {
+                "amount": 14,
+                "total cost": 0
+            },
+            "Tunnel": {
+                "amount": 135,
+                "total cost": 0
+            },
+            "Probe": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Constant": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "Pin": {
+                "amount": 27,
+                "total cost": 0
+            },
+            "D Flip-Flop": {
+                "amount": 6,
+                "total cost": 0
+            },
+            "Demultiplexer": {
+                "amount": 7,
+                "total cost": 0
+            },
+            "AND Gate": {
+                "amount": 7,
+                "total cost": 0
+            },
+            "Comparator": {
+                "amount": 3,
+                "total cost": 0
+            },
+            "Counter": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Multiplexer": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Wire": {
+                "amount": 225,
+                "total cost": 0
+            }
+        }
+    },
+    "RAM-TRANSLATE": {
+        "price": 0,
+        "amount": 3,
+        "parts": {
+            "Pin": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Tunnel": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Splitter": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Wire": {
+                "amount": 5,
                 "total cost": 0
             }
         }
@@ -214,30 +272,50 @@
         "amount": 1,
         "parts": {
             "Tunnel": {
-                "amount": 133,
+                "amount": 150,
                 "total cost": 0
             },
-            "Multiplexer": {
-                "amount": 10,
+            "Splitter": {
+                "amount": 7,
                 "total cost": 0
             },
             "Pin": {
                 "amount": 23,
                 "total cost": 0
             },
+            "Probe": {
+                "amount": 3,
+                "total cost": 0
+            },
+            "Multiplexer": {
+                "amount": 11,
+                "total cost": 0
+            },
+            "Bit Extender": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "AND Gate": {
+                "amount": 5,
+                "total cost": 0
+            },
+            "Constant": {
+                "amount": 7,
+                "total cost": 0
+            },
             "NOT Gate": {
                 "amount": 2,
                 "total cost": 0
             },
-            "Splitter": {
-                "amount": 6,
+            "I-TYPE": {
+                "amount": 1,
                 "total cost": 0
             },
-            "AND Gate": {
+            "Comparator": {
                 "amount": 3,
                 "total cost": 0
             },
-            "Spliter": {
+            "NOR Gate": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -245,27 +323,11 @@
                 "amount": 1,
                 "total cost": 13
             },
-            "Bit Extender": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Probe": {
-                "amount": 3,
-                "total cost": 0
-            },
-            "Constant": {
-                "amount": 4,
-                "total cost": 0
-            },
-            "I-TYPE": {
-                "amount": 1,
-                "total cost": 0
-            },
             "RegisterFile": {
                 "amount": 1,
                 "total cost": 18
             },
-            "NOR Gate": {
+            "Random": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -273,46 +335,58 @@
                 "amount": 1,
                 "total cost": 26
             },
-            "Random": {
+            "Spliter": {
                 "amount": 1,
                 "total cost": 0
             },
             "Wire": {
-                "amount": 108,
+                "amount": 127,
                 "total cost": 0
             }
         }
     },
-    "Spliter": {
+    "I-TYPE": {
         "price": 0,
-        "amount": 2,
+        "amount": 4,
         "parts": {
-            "Pin": {
-                "amount": 11,
-                "total cost": 0
-            },
             "Tunnel": {
-                "amount": 21,
+                "amount": 42,
                 "total cost": 0
             },
-            "Comparator": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Splitter": {
+            "AND Gate": {
                 "amount": 4,
                 "total cost": 0
             },
-            "Bit Extender": {
+            "Pin": {
                 "amount": 2,
                 "total cost": 0
             },
-            "Constant": {
+            "Text": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "Splitter": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "OR Gate": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "NOR Gate": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Bit Extender": {
                 "amount": 1,
                 "total cost": 0
             },
             "Wire": {
-                "amount": 40,
+                "amount": 29,
                 "total cost": 0
             }
         }
@@ -321,43 +395,39 @@
         "price": 13,
         "amount": 1,
         "parts": {
+            "Pin": {
+                "amount": 13,
+                "total cost": 0
+            },
             "Tunnel": {
                 "amount": 69,
-                "total cost": 0
-            },
-            "Register": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Probe": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Text": {
-                "amount": 16,
                 "total cost": 0
             },
             "NOT Gate": {
                 "amount": 2,
                 "total cost": 0
             },
-            "Bit Extender": {
+            "Multiplier": {
                 "amount": 3,
-                "total cost": 0
+                "total cost": 11
             },
-            "Pin": {
-                "amount": 13,
-                "total cost": 0
-            },
-            "Constant": {
-                "amount": 4,
+            "Text": {
+                "amount": 16,
                 "total cost": 0
             },
             "Multiplexer": {
                 "amount": 6,
                 "total cost": 2
             },
-            "OR Gate": {
+            "Bit Extender": {
+                "amount": 3,
+                "total cost": 0
+            },
+            "Probe": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "BDecoder": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -365,11 +435,15 @@
                 "amount": 3,
                 "total cost": 0
             },
-            "Multiplier": {
-                "amount": 3,
-                "total cost": 11
+            "Constant": {
+                "amount": 4,
+                "total cost": 0
             },
-            "BDecoder": {
+            "Register": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "OR Gate": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -399,86 +473,40 @@
                 "amount": 3,
                 "total cost": 0
             },
-            "I-TYPE": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Probe": {
-                "amount": 1,
+            "Constant": {
+                "amount": 5,
                 "total cost": 0
             },
             "AND Gate": {
                 "amount": 7,
                 "total cost": 0
             },
-            "Constant": {
-                "amount": 5,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 4,
+            "NOR Gate": {
+                "amount": 1,
                 "total cost": 0
             },
             "OR Gate": {
                 "amount": 3,
                 "total cost": 0
             },
-            "NOR Gate": {
+            "Splitter": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "Pin": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "Probe": {
                 "amount": 1,
                 "total cost": 0
             },
-            "Splitter": {
-                "amount": 4,
+            "I-TYPE": {
+                "amount": 1,
                 "total cost": 0
             },
             "Wire": {
                 "amount": 128,
-                "total cost": 0
-            }
-        }
-    },
-    "I-TYPE": {
-        "price": 0,
-        "amount": 4,
-        "parts": {
-            "Tunnel": {
-                "amount": 42,
-                "total cost": 0
-            },
-            "OR Gate": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "NOT Gate": {
-                "amount": 4,
-                "total cost": 0
-            },
-            "Text": {
-                "amount": 4,
-                "total cost": 0
-            },
-            "AND Gate": {
-                "amount": 4,
-                "total cost": 0
-            },
-            "Bit Extender": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Splitter": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "NOR Gate": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Wire": {
-                "amount": 29,
                 "total cost": 0
             }
         }
@@ -488,7 +516,7 @@
         "amount": 1,
         "parts": {
             "Tunnel": {
-                "amount": 282,
+                "amount": 284,
                 "total cost": 0
             },
             "Register": {
@@ -503,16 +531,16 @@
                 "amount": 2,
                 "total cost": 18
             },
-            "Constant": {
-                "amount": 1,
-                "total cost": 0
-            },
             "Demultiplexer": {
                 "amount": 1,
                 "total cost": 0
             },
+            "Constant": {
+                "amount": 1,
+                "total cost": 0
+            },
             "Wire": {
-                "amount": 588,
+                "amount": 594,
                 "total cost": 0
             }
         }
@@ -521,29 +549,25 @@
         "price": 26,
         "amount": 1,
         "parts": {
-            "Divider": {
+            "Pin": {
+                "amount": 9,
+                "total cost": 0
+            },
+            "Adder": {
                 "amount": 1,
-                "total cost": 4
+                "total cost": 0
             },
             "Tunnel": {
                 "amount": 63,
                 "total cost": 0
             },
-            "Pin": {
-                "amount": 9,
+            "Text": {
+                "amount": 13,
                 "total cost": 0
             },
             "Multiplier": {
                 "amount": 1,
                 "total cost": 4
-            },
-            "Text": {
-                "amount": 13,
-                "total cost": 0
-            },
-            "Multiplexer": {
-                "amount": 3,
-                "total cost": 2
             },
             "Comparator": {
                 "amount": 3,
@@ -553,7 +577,15 @@
                 "amount": 2,
                 "total cost": 0
             },
-            "Adder": {
+            "Constant": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Multiplexer": {
+                "amount": 3,
+                "total cost": 2
+            },
+            "AND Gate": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -561,23 +593,7 @@
                 "amount": 1,
                 "total cost": 12
             },
-            "Constant": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Subtractor": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "AND Gate": {
-                "amount": 1,
-                "total cost": 0
-            },
             "NOR Gate": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "OR Gate": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -585,9 +601,21 @@
                 "amount": 1,
                 "total cost": 0
             },
+            "Divider": {
+                "amount": 1,
+                "total cost": 4
+            },
+            "OR Gate": {
+                "amount": 1,
+                "total cost": 0
+            },
             "Mult": {
                 "amount": 1,
                 "total cost": 4
+            },
+            "Subtractor": {
+                "amount": 1,
+                "total cost": 0
             },
             "Wire": {
                 "amount": 133,
@@ -603,43 +631,39 @@
                 "amount": 32,
                 "total cost": 0
             },
-            "Probe": {
-                "amount": 4,
-                "total cost": 0
+            "Mult": {
+                "amount": 2,
+                "total cost": 8
             },
-            "Pin": {
-                "amount": 4,
+            "ToUnsigned": {
+                "amount": 2,
                 "total cost": 0
             },
             "Multiplexer": {
                 "amount": 2,
                 "total cost": 0
             },
-            "Mult": {
-                "amount": 2,
-                "total cost": 8
-            },
-            "XOR Gate": {
-                "amount": 1,
-                "total cost": 0
-            },
             "Divider": {
                 "amount": 1,
                 "total cost": 4
             },
-            "Constant": {
-                "amount": 1,
+            "Pin": {
+                "amount": 4,
                 "total cost": 0
             },
-            "ToUnsigned": {
-                "amount": 2,
+            "Adder": {
+                "amount": 1,
                 "total cost": 0
             },
             "Subtractor": {
                 "amount": 2,
                 "total cost": 0
             },
-            "Adder": {
+            "Probe": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "NOT Gate": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -647,7 +671,11 @@
                 "amount": 1,
                 "total cost": 0
             },
-            "NOT Gate": {
+            "Constant": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "XOR Gate": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -665,31 +693,19 @@
                 "amount": 21,
                 "total cost": 0
             },
-            "Multiplexer": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "ToUnsigned": {
-                "amount": 2,
+            "Pin": {
+                "amount": 4,
                 "total cost": 0
             },
             "Probe": {
                 "amount": 4,
                 "total cost": 0
             },
-            "Adder": {
+            "ToUnsigned": {
                 "amount": 2,
                 "total cost": 0
             },
-            "Pin": {
-                "amount": 4,
-                "total cost": 0
-            },
-            "Multiplier": {
-                "amount": 1,
-                "total cost": 4
-            },
-            "NOT Gate": {
+            "Adder": {
                 "amount": 2,
                 "total cost": 0
             },
@@ -697,9 +713,21 @@
                 "amount": 2,
                 "total cost": 0
             },
+            "Multiplexer": {
+                "amount": 2,
+                "total cost": 0
+            },
             "XOR Gate": {
                 "amount": 1,
                 "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Multiplier": {
+                "amount": 1,
+                "total cost": 4
             },
             "Wire": {
                 "amount": 48,
@@ -711,10 +739,6 @@
         "price": 0,
         "amount": 4,
         "parts": {
-            "Multiplexer": {
-                "amount": 1,
-                "total cost": 0
-            },
             "Pin": {
                 "amount": 3,
                 "total cost": 0
@@ -727,8 +751,46 @@
                 "amount": 1,
                 "total cost": 0
             },
+            "Multiplexer": {
+                "amount": 1,
+                "total cost": 0
+            },
             "Wire": {
                 "amount": 13,
+                "total cost": 0
+            }
+        }
+    },
+    "Spliter": {
+        "price": 0,
+        "amount": 2,
+        "parts": {
+            "Bit Extender": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Splitter": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "Tunnel": {
+                "amount": 21,
+                "total cost": 0
+            },
+            "Pin": {
+                "amount": 11,
+                "total cost": 0
+            },
+            "Comparator": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Constant": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Wire": {
+                "amount": 40,
                 "total cost": 0
             }
         }
@@ -737,19 +799,31 @@
         "price": 0,
         "amount": 1,
         "parts": {
-            "Tunnel": {
-                "amount": 19,
+            "ItypeControl": {
+                "amount": 1,
                 "total cost": 0
             },
-            "Pin": {
-                "amount": 20,
+            "Tunnel": {
+                "amount": 19,
                 "total cost": 0
             },
             "Splitter": {
                 "amount": 4,
                 "total cost": 0
             },
+            "Constant": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Pin": {
+                "amount": 20,
+                "total cost": 0
+            },
             "ALUDECODER": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "I-TYPE": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -757,19 +831,11 @@
                 "amount": 1,
                 "total cost": 0
             },
-            "Constant": {
-                "amount": 2,
-                "total cost": 0
-            },
             "Multiplexer": {
                 "amount": 2,
                 "total cost": 0
             },
-            "I-TYPE": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "ItypeControl": {
+            "Spliter": {
                 "amount": 1,
                 "total cost": 0
             },
@@ -777,168 +843,8 @@
                 "amount": 1,
                 "total cost": 0
             },
-            "Spliter": {
-                "amount": 1,
-                "total cost": 0
-            },
             "Wire": {
                 "amount": 142,
-                "total cost": 0
-            }
-        }
-    },
-    "ALUDECODER": {
-        "price": 0,
-        "amount": 1,
-        "parts": {
-            "Tunnel": {
-                "amount": 13,
-                "total cost": 0
-            },
-            "Probe": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "I-TYPE": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 3,
-                "total cost": 0
-            },
-            "Multiplexer": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Constant": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "ALUDecI": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "ALUD": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Wire": {
-                "amount": 17,
-                "total cost": 0
-            }
-        }
-    },
-    "ALUDecI": {
-        "price": 0,
-        "amount": 1,
-        "parts": {
-            "AND Gate": {
-                "amount": 6,
-                "total cost": 0
-            },
-            "NOT Gate": {
-                "amount": 7,
-                "total cost": 0
-            },
-            "Tunnel": {
-                "amount": 20,
-                "total cost": 0
-            },
-            "Bit Extender": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "OR Gate": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Splitter": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Wire": {
-                "amount": 69,
-                "total cost": 0
-            }
-        }
-    },
-    "ALUD": {
-        "price": 0,
-        "amount": 1,
-        "parts": {
-            "AND Gate": {
-                "amount": 7,
-                "total cost": 0
-            },
-            "Tunnel": {
-                "amount": 16,
-                "total cost": 0
-            },
-            "NOT Gate": {
-                "amount": 6,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "OR Gate": {
-                "amount": 3,
-                "total cost": 0
-            },
-            "Splitter": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Bit Extender": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Wire": {
-                "amount": 73,
-                "total cost": 0
-            }
-        }
-    },
-    "4TypeControl": {
-        "price": 0,
-        "amount": 1,
-        "parts": {
-            "Tunnel": {
-                "amount": 10,
-                "total cost": 0
-            },
-            "AND Gate": {
-                "amount": 6,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 19,
-                "total cost": 0
-            },
-            "OR Gate": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "NOT Gate": {
-                "amount": 4,
-                "total cost": 0
-            },
-            "Constant": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Splitter": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Wire": {
-                "amount": 93,
                 "total cost": 0
             }
         }
@@ -951,28 +857,28 @@
                 "amount": 19,
                 "total cost": 0
             },
-            "Tunnel": {
-                "amount": 8,
-                "total cost": 0
-            },
             "NOT Gate": {
                 "amount": 10,
+                "total cost": 0
+            },
+            "Tunnel": {
+                "amount": 8,
                 "total cost": 0
             },
             "AND Gate": {
                 "amount": 10,
                 "total cost": 0
             },
-            "OR Gate": {
-                "amount": 3,
+            "Splitter": {
+                "amount": 1,
                 "total cost": 0
             },
             "Constant": {
                 "amount": 3,
                 "total cost": 0
             },
-            "Splitter": {
-                "amount": 1,
+            "OR Gate": {
+                "amount": 3,
                 "total cost": 0
             },
             "Wire": {
@@ -981,24 +887,184 @@
             }
         }
     },
-    "RtypeControl": {
+    "ALUDECODER": {
         "price": 0,
         "amount": 1,
         "parts": {
+            "Constant": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "ALUD": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Tunnel": {
+                "amount": 13,
+                "total cost": 0
+            },
+            "I-TYPE": {
+                "amount": 1,
+                "total cost": 0
+            },
             "Pin": {
+                "amount": 3,
+                "total cost": 0
+            },
+            "Probe": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Multiplexer": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "ALUDecI": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Wire": {
+                "amount": 17,
+                "total cost": 0
+            }
+        }
+    },
+    "ALUD": {
+        "price": 0,
+        "amount": 1,
+        "parts": {
+            "OR Gate": {
+                "amount": 3,
+                "total cost": 0
+            },
+            "AND Gate": {
+                "amount": 7,
+                "total cost": 0
+            },
+            "Tunnel": {
+                "amount": 16,
+                "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 6,
+                "total cost": 0
+            },
+            "Bit Extender": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Pin": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Splitter": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Wire": {
+                "amount": 73,
+                "total cost": 0
+            }
+        }
+    },
+    "ALUDecI": {
+        "price": 0,
+        "amount": 1,
+        "parts": {
+            "Tunnel": {
                 "amount": 20,
                 "total cost": 0
             },
             "AND Gate": {
-                "amount": 13,
+                "amount": 6,
                 "total cost": 0
             },
+            "Pin": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 7,
+                "total cost": 0
+            },
+            "OR Gate": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Splitter": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Bit Extender": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Wire": {
+                "amount": 69,
+                "total cost": 0
+            }
+        }
+    },
+    "4TypeControl": {
+        "price": 0,
+        "amount": 1,
+        "parts": {
+            "Pin": {
+                "amount": 19,
+                "total cost": 0
+            },
+            "Tunnel": {
+                "amount": 10,
+                "total cost": 0
+            },
+            "Splitter": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "AND Gate": {
+                "amount": 6,
+                "total cost": 0
+            },
+            "NOT Gate": {
+                "amount": 4,
+                "total cost": 0
+            },
+            "OR Gate": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Constant": {
+                "amount": 1,
+                "total cost": 0
+            },
+            "Wire": {
+                "amount": 93,
+                "total cost": 0
+            }
+        }
+    },
+    "RtypeControl": {
+        "price": 0,
+        "amount": 1,
+        "parts": {
             "NOT Gate": {
                 "amount": 21,
                 "total cost": 0
             },
             "Tunnel": {
                 "amount": 12,
+                "total cost": 0
+            },
+            "OR Gate": {
+                "amount": 2,
+                "total cost": 0
+            },
+            "Pin": {
+                "amount": 20,
+                "total cost": 0
+            },
+            "AND Gate": {
+                "amount": 13,
                 "total cost": 0
             },
             "Constant": {
@@ -1009,74 +1075,8 @@
                 "amount": 1,
                 "total cost": 0
             },
-            "OR Gate": {
-                "amount": 2,
-                "total cost": 0
-            },
             "Wire": {
                 "amount": 211,
-                "total cost": 0
-            }
-        }
-    },
-    "RAMUI": {
-        "price": 0,
-        "amount": 1,
-        "parts": {
-            "Tunnel": {
-                "amount": 116,
-                "total cost": 0
-            },
-            "D Flip-Flop": {
-                "amount": 5,
-                "total cost": 0
-            },
-            "OR Gate": {
-                "amount": 11,
-                "total cost": 0
-            },
-            "Demultiplexer": {
-                "amount": 7,
-                "total cost": 0
-            },
-            "Pin": {
-                "amount": 27,
-                "total cost": 0
-            },
-            "AND Gate": {
-                "amount": 6,
-                "total cost": 0
-            },
-            "Constant": {
-                "amount": 4,
-                "total cost": 0
-            },
-            "NOT Gate": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Multiplexer": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Adder": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Comparator": {
-                "amount": 2,
-                "total cost": 0
-            },
-            "Counter": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Probe": {
-                "amount": 1,
-                "total cost": 0
-            },
-            "Wire": {
-                "amount": 180,
                 "total cost": 0
             }
         }
